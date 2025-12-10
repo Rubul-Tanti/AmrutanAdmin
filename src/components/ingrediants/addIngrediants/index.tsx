@@ -40,9 +40,6 @@ const AddIngrediantsForm = () => {
     if (step < 5) goTo((step + 1) as 1 | 2 | 3 | 4 | 5);
   };
 
-  const prev = () => {
-    if (step > 1) goTo((step - 1) as 1 | 2 | 3 | 4 | 5);
-  };
 
   const slideVariant = useMemo(() => {
     // forward: from right; back: from left
@@ -71,7 +68,6 @@ const AddIngrediantsForm = () => {
         <div className="w-full flex justify-center mt-10 mb-20">
           <div className="flex items-center gap-3">
             {steps.map((s, idx) => {
-              const isActive = step === s.id;
               const isDone = step > s.id;
 
               return (

@@ -105,7 +105,8 @@ const Sidebar = () => {
             >
          
                 <button
-                  onClick={() =>{item.route&&navigate(item.route);handleItemClick(item.id, !!item.submenu)}}
+                  onClick={() =>{item.route&&navigate(item.route)
+                    handleItemClick(item.id, !!item.submenu)}}
                   className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors ${
                     activeItem === item.id
                       ? 'bg-gray-100 text-gray-900'

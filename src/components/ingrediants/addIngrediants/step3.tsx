@@ -178,10 +178,7 @@ const AddIngrediantsFormStep3 = () => {
     ing.name.toLowerCase().includes(allSearch.toLowerCase())
   );
 
-  const handleSubmit = () => {
-    console.log('Form Data:', formData);
-    alert('Form submitted! Check console for data.');
-  };
+
 
   return (
     <div className="outline-0 mx-auto w-full max-w-5xl p-6 bg-white">
