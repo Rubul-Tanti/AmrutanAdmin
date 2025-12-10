@@ -1,9 +1,9 @@
 import { Check} from 'lucide-react';
-import Image1 from "../../assets/images/ingrediants/image1.png"
-import Image2 from "../../assets/images/ingrediants/image2.png"
-import Image3 from "../../assets/images/ingrediants/image3.png"
-import Image4 from "../../assets/images/ingrediants/image4.png"
-import ProductImage from "../../assets/images/productImage/image4.png"
+import Image1 from "../../../assets/images/ingrediants/image1.png"
+import Image2 from "../../../assets/images/ingrediants/image2.png"
+import Image3 from "../../../assets/images/ingrediants/image3.png"
+import Image4 from "../../../assets/images/ingrediants/image4.png"
+import ProductImage from "../../../assets/images/productImage/image4.png"
 import { useState } from 'react';
 export default function AddIngrediantsFormStep5() {
     const [View,setView]=useState<string>('desktop')

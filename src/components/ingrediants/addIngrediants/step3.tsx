@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { X, Smile } from 'lucide-react';
-import Image1 from "../../assets/images/ingrediants/image1.png"
-import Image2 from "../../assets/images/ingrediants/image2.png"
-import Image3 from "../../assets/images/ingrediants/image3.png"
-import Image4 from "../../assets/images/ingrediants/image4.png"
+import Image1 from "../../../assets/images/ingrediants/image1.png"
+import Image2 from "../../../assets/images/ingrediants/image2.png"
+import Image3 from "../../../assets/images/ingrediants/image3.png"
+import Image4 from "../../../assets/images/ingrediants/image4.png"
 interface DosageItem {
   id: number;
   text: string;

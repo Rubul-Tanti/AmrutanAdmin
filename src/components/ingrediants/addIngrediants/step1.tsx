@@ -1,8 +1,8 @@
 import { ChevronRight, Plus, X, ChevronLeft, Image } from "lucide-react";
 import { useState,  } from "react";
-import Image1 from "../../assets/images/productImage/image1.png";
-import Image2 from "../../assets/images/productImage/image2.png";
-import Image3 from "../../assets/images/productImage/image3.png";
+import Image1 from "../../../assets/images/productImage/image1.png";
+import Image2 from "../../../assets/images/productImage/image2.png";
+import Image3 from "../../../assets/images/productImage/image3.png";
 import {motion} from  "motion/react"
 interface PriceRow {
   id: number;

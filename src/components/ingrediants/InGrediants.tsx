@@ -1,6 +1,6 @@
 import { ArrowUpDown, Dot, Download, EllipsisVertical, Plus } from "lucide-react"
 import ProductsTable from ".././productTable"
-import Image from "../assets/images/Image.png"
+import Image from "../../assets/images/Image.png"
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 
