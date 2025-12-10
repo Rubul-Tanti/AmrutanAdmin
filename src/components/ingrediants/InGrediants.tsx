@@ -1,4 +1,4 @@
-import { ArrowUpDown, Dot, Download, EllipsisVertical, Plus } from "lucide-react"
+import { ArrowUpDown, Download, EllipsisVertical, Plus } from "lucide-react"
 import ProductsTable from ".././productTable"
 import Image from "../../assets/images/Image.png"
 import { useState } from "react"
